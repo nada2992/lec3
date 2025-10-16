@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#upper {
+  width: 100%;
+  height: 10vh;
+  background-color: #d8d8d8;
+}
+#center {
+  width: 100%;
+  height: 85vh;
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  gap: 8px;
+}
+
+#layer1 {
+  width: 82%;
+  height: 100%;
+  padding: 8px;
+  background-color: #d8d8d8;
+}
+#layer2 {
+  width: 18%;
+  height: 100%;
+  padding: 8px;
+  background-color: #d8d8d8;
+}
+
+#lower {
+  width: 100%;
+  height: 5vh;
+  background-color: #d8d8d8;
+}

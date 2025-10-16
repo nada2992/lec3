@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#upper {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#layer1 {
+  width: 15%;
+  height: 100%;
+  padding: 8px;
+}
+
+#layer1 .son {
+  height: 70%;
+  width: 100%;
+  background-color: #d8d8d8;
+}
+#layer2 {
+  width: 50%;
+  height: 100%;
+  padding: 8px;
+}
+
+#layer3 {
+  width: 30%;
+  height: 100%;
+  padding: 8px;
+}
+
+#layer3 .son {
+  height: 70%;
+  width: 100%;
+  background-color: #d8d8d8;
+}
+
+#center1 {
+  width: 100%;
+  height: 30vh;
+  display: flex;
+  background-color: #d8d8d8;
+  padding: 8px;
+  border: 8px solid white;
+}
+
+#center2 {
+  width: 100%;
+  height: 30vh;
+  margin-top: 8px;
+  display: flex;
+  padding: 8px;
+  gap: 8px;
+}
+
+#center2 .layer1 {
+  width: 40%;
+  height: 100%;
+  background-color: #d8d8d8;
+  padding: 8px;
+}
+
+#center2 .layer2 {
+  width: 60%;
+  height: 100%;
+  background-color: #d8d8d8;
+  padding: 8px;
+}
+
+#lower {
+  width: 100%;
+  height: 30vh;
+  display: flex;
+  padding: 8px;
+  gap: 8px;
+}
+
+#lower .layer1 {
+  width: 60%;
+  height: 100%;
+  background-color: #d8d8d8;
+  padding: 8px;
+}
+#lower .layer2 {
+  width: 40%;
+  height: 100%;
+  background-color: #d8d8d8;
+  padding: 8px;
+}
